@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>新用户注册页面</title>
+    <link type="text/css" rel="stylesheet" href="css/global.css"/>
+    <link type="text/css" rel="stylesheet" href="css/register.css"/>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</head>
+
+<body>
+<div class="top" style="width: 1236px">
+<div class="ding clr" id="ding">
+    <div><marquee behavior="" direction="left">欢迎订购!订购热线：18435186393</marquee></div>
+    <span><a href="#">中文|Englishi&nbsp;收藏订购本网站</a></span>
+</div>
+<div class="nav clr" id="nav">
+    <p>
+        <img src="images/nav1.jpg" alt="导航" width="60px" />
+        <img src="images/nav2.png" alt="导航" height="50px" width="220px"/>
+    </p>
+</div>
+
+</div>
+
+<div class="main">
+    <h1 >注册</h1>
+    <h2 >已有账号？<span><a href="login.html">登陆</a></span></h2>
+    <div class="clr"></div>
+    <form id="registerForm" action="http://mail.163.com/html/mail_intro/" method="post" name="myForm">
+
+        <dl class="clr">
+            <dt>用户名：</dt>
+            <dd><input type="text" id="userName" class="inputs userWidth"/></dd>
+            <div id="userNameId"></div>
+        </dl>
+        <dl class="clr">
+            <dt>登录密码：</dt>
+            <dd><input type="password" id="pwd" class="inputs"/></dd>
+            <div id="pwdId"></div>
+        </dl>
+        <dl class="clr">
+            <dt>重复登录密码：</dt>
+            <dd><input type="password" id="repwd" class="inputs"/></dd>
+            <div id="repwdId"></div>
+        </dl>
+        <dl class="clr">
+            <dt>性别：</dt>
+            <dd class="gender-box">
+                <input name="sex" type="radio" value="0" checked="checked" id="male"/><label for="male">男</label> 
+                <input name="sex" type="radio" value="1" id="female"/><label for="female">女</label>
+            </dd>
+        </dl>
+        <dl class="clr">
+            <dt>真实姓名：</dt>
+            <dd><input type="text" id="realName" class="inputs"/></dd>
+        </dl>
+        <dl class="clr">
+            <dt>昵称：</dt>
+            <dd><input type="text" id="nickName" class="inputs"/></dd>
+            <div id="nickNameId"></div>
+        </dl>
+        <dl class="clr">
+            <dt>关联手机号：</dt>
+            <dd><input type="text" id="tel" class="inputs"/></dd>
+            <div id="telId"></div>
+        </dl>
+        <dl class="clr">
+            <dt>保密邮箱：</dt>
+            <dd><input type="text" id="email" class="inputs"/></dd>
+            <div id="emailId"></div>
+        </dl>
+        <dl class="clr">
+            <dt></dt>
+            <dd><input  name="submitBtn" type="button" value="注册"/></dd>
+            </dl>
+    </form>
+</div>
+<div class="bottom">
+
+
+        <ul>
+            <li style="padding-left:0px;" class="bg">
+                <a href="#">法律条款</a>
+            </li>
+            <li class="bg">
+                <a href="#">隐私条款</a>
+            </li>
+            <li class="bg">
+                <a href="#">经营公示</a>
+            </li>
+            <li class="bg"><a href="">联系我们</a></li>
+            <li class="bg"><a href="#">加入我们</a></li>
+            <li class="noBg"><a href="#">经营性网站备案信息</a></li>
+
+
+            <li class="last_li">版权所有 百胜（中国）投资有限公司 沪ICP备05031779号</li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+
+
+</body>
+</html>
